@@ -1,29 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Got a sweet tooth?</title>
 </head>
-<body>
-    <h1>Got a sweet tooth?</h2>
-        <p>
-            <img src="./images/Sweet.jpeg" width="500" height="400">
-        </p>
 
-     <h3>Description</h3>
-     <p>
-        The term dessert can apply to many confections, such as biscuits, cakes, cookies, custards, gelatins, ice creams, pastries, pies, puddings, macaroons, sweet soups, tarts and fruit salad. Fruit is also commonly found in dessert courses because of its naturally occurring sweetness.
-     </p>
-<p> 
-   <ul>
-    <li><a href="./recipes/cinnamon_rolls.html">Cinnamon Rolls</a></li>
-</p>
-   <li> <a href="./recipes/Simple_White_Cake.html">Simple White Cake</a></li>
-<p>
-    <li><a href="./recipes/Super_Easy_Dougnuts.html">Super Easy Dougnuts</a></li>
-    </ul>
-</p>
+<body>
+    <h1>3 Easy Desserts To make</h1>
+
+      <div class="accordion" id="accordionPanelsStayOpenExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+              Description
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+            <div class="accordion-body">
+              Want to cook desserts but don't know where to start?<strong> Look no further!</strong>
+              The term dessert can apply to many confections, such as biscuits, cakes,
+              cookies, custards, gelatins, ice creams, pastries, pies, puddings, macaroons, sweet soups, tarts and fruit salad. 
+              Fruit is also commonly found in dessert courses because of its naturally occurring sweetness.
+            </div>
+          </div>
+        </div>
+      </div>
+    
+     <h3>Try these!</h3>
+
+     <div class="cards">
+      
+      <a href="./recipes/cinnamon_rolls.html">
+        <div class="zoom">
+          <div class="card">
+            <h2 class="card-title">Cinnamon rolls </h2> 
+              <img src="./images/cinnamon_rolls.jpg" alt="Cinnamon rolls">
+          </div>
+        </div>
+      </a>
+
+
+      <a href="./recipes/Simple_White_Cake.html">
+        <div class="zoom">
+          <div class="card">
+              <h2 class="card-title">Simple white cakes</h2>
+                <img src="./images/cake.jpeg" alt="Simple white cakes">
+          </div>
+        </div>
+      </a>
+
+
+      <a href="./recipes/Super_Easy_Dougnuts.html">
+        <div class="zoom">
+          <div class="card">
+            <h2 class="card-title">Super easy doughnuts</h2>        
+              <img src="./images/dougnuts.jpeg" alt="Super easy doughnuts">
+          </div>
+        </div>
+      </a>
+
+     </div>
 </body>
 </html>
