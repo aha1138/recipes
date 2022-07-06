@@ -1,19 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="cinnamon.css">
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <title>Simple White Cake</title>
 </head>
 <body>
-    <h1>Simple White Cake</h1> 
-    <img src="../images/cake.jpeg" width="400" height="400"> 
 
-    <h2>Description</h2>
-        <p>A cake is a sweet food made by baking a mixture of flour, eggs, sugar, and fat in an oven. Cakes may be large and cut into slices or small and intended for one person only. ... Food that is formed into flat round shapes before it is cooked can be referred to as cakes.</p>
-    
-    <h3>Ingredients:</h3>
+    <div class="hero">
+      <div class="header">
+    <h1 class="title">Simple White Cake</h1> 
+    <div class="img">
+    <img src="../images/cake.jpeg" width="400" height="400"> 
+    </div>
+
+    <div class="accordion" id="accordionPanelsStayOpenExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+              Description
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+            <div class="accordion-body">
+              <p>A cake is a sweet food made by baking a mixture of flour, eggs, sugar, and fat in an oven. 
+                Cakes may be large and cut into slices or small and intended for one person only.
+                ... Food that is formed into flat round shapes before it is cooked can be referred to as cakes.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="content">
+        <div class="table">
+
+    <h3><strong>Ingredients:</strong></h3>
         <ul>
             <li>1 cup white sugar </li>
             <li>½ cup butter </li>
@@ -23,14 +47,25 @@
             <li>1 ¾ teaspoons baking powder </li>
             <li>½ cup milk </li>
         </ul>
-    <h3>Directions</h3>
+        </div>
+
+        <div class="table2">
+    <h3><strong>Directions</strong></h3>
         <ol>
             <li>Preheat oven to 350 degrees F (175 degrees C). Grease and flour a 9x9 inch pan or line a muffin pan with paper liners.</li>
             <li>In a medium bowl, cream together the sugar and butter. Beat in the eggs, one at a time, then stir in the vanilla. Combine flour and baking powder, add to the creamed mixture and mix well. Finally stir in the milk until batter is smooth. Pour or spoon batter into the prepared pan.</li>
             <li>Bake for 30 to 40 minutes in the preheated oven. For cupcakes, bake 20 to 25 minutes. Cake is done when it springs back to the touch.</li>
         </ol>
-<p>
-            <a href="../index.html"> Homepage  </a>
-</p>
+    </div>
+</div>
+    <div class="btn">
+    <p>
+        <a href="../index.html">
+        <button type="button" class="btn btn-light">HOME</button>
+        </a>
+    </p>
+    </div>
+</div>
+</body>
 </body>
 </html>

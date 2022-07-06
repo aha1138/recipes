@@ -1,19 +1,44 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="stylesheet" href="cinnamon.css">
         <meta charset="UTF-8">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
         <title>Cinnamon Rolls</title>
 </head>
 <body>
-   <h1>Cinnamon Rolls</h1> 
-    <img src="../images/cinnamon_rolls.jpg" width="400" height="400"> 
+    <div class="hero">
+        <div class="header">
+   <h1 class="title">Cinnamon Rolls</h1> 
+   <div class="img">
+    <img class="img" src="../images/cinnamon_rolls.jpg" width="400" height="400"> 
+    </div>
 
-    <h2>Description</h2>
-        <p>A cinnamon roll is a sweet baked dough filled with a cinnamon-sugar filling. Made with a rich dough leavened with yeast, their characteristic form is due to rolling a dough sheet containing sweetened cinnamon filling. Common toppings for cinnamon rolls include cream cheese frosting or a sugar glaze.</p>
-    
-    <h3>Ingredients:</h3>
+    <div class="accordion" id="accordionPanelsStayOpenExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+            Description
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+          <div class="accordion-body">
+            <p>A cinnamon roll is a sweet baked dough filled with a cinnamon-sugar filling. 
+            Made with a rich dough leavened with yeast, their characteristic form is due to rolling a dough sheet containing sweetened cinnamon filling.
+            Common toppings for cinnamon rolls include cream cheese frosting or a sugar glaze.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
 
-    <h4>Dough:</h4>
+    <div class="content">
+
+    <div class="table">
+    <h3><strong>Ingredients:</strong></h3>
+
+    <h4><strong>Dough:</strong></h4>
         <ul>
             <li>2 cups all-purpose flour </li>
             <li>2 tablespoons white sugar</li>
@@ -23,20 +48,23 @@
             <li>¾ cup milk </li>
             <li>1 egg</li>
         </ul>
-    <h4>Filling:</h4>
+    <h4><strong>Filling:</strong></h4>
         <ul>
             <li>½ cup white sugar </li>
             <li>½ cup brown sugar </li>
             <li>1 tablespoon ground cinnamon </li>
         </ul>
-    <h4>Cream Cheese Frosting:</h4>
+    <h4><strong>Cream Cheese Frosting:</strong></h4>
         <ul>
             <li>1 cup confectioners' sugar (Optional)</li>
             <li>4 ounces cream cheese, softened (Optional)</li>
             <li>¼ cup butter, softened (Optional)</li>
             <li>½ teaspoon vanilla extract (Optional)</li>
         </ul>
-    <h4>Directions</h4>
+    </div>
+
+    <div class="table2">
+    <h4><strong>Directions</strong></h4>
         <ol>
             <li>Preheat oven to 400 degrees F (200 degrees C). Brush a 9-inch square baking dish with 2 tablespoons melted butter.</li>
             <li>Whisk flour, 2 tablespoons white sugar, baking powder, and salt together in a large bowl. Work 3 tablespoons softened butter into flour mixture using your hands. Beat milk and egg together in another bowl; pour into flour-butter mixture and stir with a rubber spatula until a soft dough forms.</li>
@@ -45,9 +73,14 @@
             <li>Bake in the preheated oven until rolls are set, 20 to 25 minutes.</li>
             <li>Beat confectioners' sugar, cream cheese, 1/4 cup softened butter, and vanilla extract together in a bowl until frosting is smooth. Top hot cinnamon rolls with cream cheese frosting.</li>
         </ol>
-    
-<p>
-    <a href="../index.html"> Homepage  </a>
-</p>
+    </div>
+</div>
+<div class="btn">
+    <p>
+        <a href="../index.html">
+        <button type="button" class="btn btn-light">HOME</button>
+        </a>
+    </p>
+    </div>
     </body>
 </html>

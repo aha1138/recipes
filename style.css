@@ -1,3 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+.hero {
+    background:linear-gradient(180deg, rgb(40, 115, 253), rgb(223, 237, 243));
+}
+
+
+
+nav{
+    width: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+    padding: 20px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero .content .title {
+    color: white;
+}
+
+nav .logo{
+    width: 100px;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+
+.content {
+    text-align: center;
+}
+
+.content h1 {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.cards {
+    display: flex;
+    padding-left: 100px;
+    padding-right: 100px;
+    justify-content: space-between;
+}
+
+
+
+
+
 
 
 
