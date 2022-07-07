@@ -1,13 +1,14 @@
-// Preload image
 
-var images = new Array();
+var images = [];
 
-function preloadImages(){
-    for (i=0; i < preloadImages.arguments.length; i++){
+function preload() {
+    for (var i = 0; i <arguments.length; i++) {
         images[i] = new Image();
-
-        images[i].src = preloadImages.arguments[1];
+        images[i].src = preload.arguemnts[i];
     }
 }
 
-preloadImages("cake.jpeg","./images/cinnamon_rolls.jpg","dougnuts.jpeg");
+preload (LOGO.jpg,
+        cake.jpeg,
+        cinnamon_rolls.jpg,
+        dougnuts.jpeg)
