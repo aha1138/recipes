@@ -1,2 +1,2 @@
-# odin-recipes
-This project consists of me building a basic recipe website
+All the projects from The Odin Project
+
